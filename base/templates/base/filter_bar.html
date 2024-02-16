@@ -1,0 +1,152 @@
+{% load static %}
+
+<div class="filter-container">
+    Filter:
+
+    <div class="dropdown">
+        <button class="dropdown-button">
+            Company
+            <img src="{% static 'images/white-dropdown-arrow.png' %}" alt="" class="arrow-image">
+        </button>
+        <div class="dropdown-content">
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="dow_chemical" value="Dow Chemical">
+                <label for="dow_chemical">Dow Chemical</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="nexteer_auto" value="Nexteer Auto">
+                <label for="nexteer_auto">Nexteer Auto</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="meta" value="Meta">
+                <label for="meta">Meta</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="amazon" value="Amazon">
+                <label for="amazon">Amazon</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="google" value="google">
+                <label for="google">Google</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_name" id="adobe" value="Adobe">
+                <label for="adobe">Adobe</label>
+            </div>
+        </div>
+      </div> 
+
+
+      <div class="dropdown">
+        <button class="dropdown-button">
+            Company Type
+            <img src="{% static 'images/white-dropdown-arrow.png' %}" alt="" class="arrow-image">
+        </button>
+        <div class="dropdown-content">
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_type" id="technology" value="technology">
+                <label for="technology">Technology</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_type" id="automotive" value="automotive">
+                <label for="automotive">Automotive</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_type" id="finance" value="finance">
+                <label for="finance">Finance</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_type" id="healthcare" value="healthcare">
+                <label for="healthcare">Healthcare</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="company_type" id="retail" value="retail">
+                <label for="retail">Retail</label>
+            </div>
+
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropdown-button">
+            Role
+            <img src="{% static 'images/white-dropdown-arrow.png' %}" alt="" class="arrow-image">
+        </button>
+        <div class="dropdown-content">
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="role" id="software_dev" value="Dow software_dev">
+                <label for="software_dev">Software Dev.</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="role" id="software_eng" value="Nexsoftware_engteer Auto">
+                <label for="software_eng">Software Eng.</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="role" id="data_scientist" value="data_scientist">
+                <label for="data_scientist">Data Scientist</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="role" id="network_architect" value="network_architect">
+                <label for="network_architect">Network Architect</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="role" id="adobe" value="Adobe">
+                <label for="adobe">Adobe</label>
+            </div>
+        </div>
+      </div> 
+
+      <div class="dropdown">
+        <button class="dropdown-button">
+            Specialization
+            <img src="{% static 'images/white-dropdown-arrow.png' %}" alt="" class="arrow-image">
+        </button>
+        <div class="dropdown-content">
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="specialization" id="artificial_int" value="artificial_int">
+                <label for="artificial_int">Artificial Int.</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="specialization" id="machine_learning" value="machine_learning">
+                <label for="machine_learning">Machine Learning</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="specialization" id="data_science" value="data_science">
+                <label for="data_science">Data Science</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="specialization" id="cloud_computing" value="cloud_computing">
+                <label for="cloud_computing">Cloud Computing</label>
+            </div>
+
+            <div class="dropdown-item">
+                <input class="input-radio" type="radio" name="specialization" id="networking" value="networking">
+                <label for="networking">Networking</label>
+            </div>
+        </div>
+      </div> 
+
+      <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search By Name">
+      </div>
+</div>

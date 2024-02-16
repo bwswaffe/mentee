@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+
+body{
+    height: 100%;
+    background-image:linear-gradient(
+        315deg,
+        hsl(216deg 36% 19%) 0%,
+        hsl(216deg 45% 24%) 23%,
+        hsl(229deg 23% 32%) 41%,
+        hsl(326deg 20% 31%) 57%,
+        hsl(355deg 43% 27%) 76%,
+        hsl(354deg 33% 23%) 100%
+      );
+      font-family: Roboto;
+      margin: 0; 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+h1{
+  color: white;
+  padding: 0% 3%;
+}
+
+img {
+  padding: 1%;
+}
+
+.recommended-mentors-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 160px;
+  flex-direction: row;
+  padding: 0% 3%;
+  justify-content: space-between;
+}
+
+

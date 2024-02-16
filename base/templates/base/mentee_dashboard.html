@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mentee_dashboard.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/dropdown.css' %}">
+    <title>Document</title>
+</head>
+<body>
+
+    {% include 'navbar.html' %}
+ 
+
+    <h1>Recommended mentors</h1>
+    <div class="recommended-mentors-container">
+
+        
+
+        {% for mentor in mentors %}
+
+            {% include 'base/mentor_card.html' with mentor=mentor %}
+
+        {% endfor %}
+
+    </div>
+
+    <h1>Available Mentors</h1>
+
+    {% include 'base/filter_bar.html' %}
+
+</body>
+</html>
